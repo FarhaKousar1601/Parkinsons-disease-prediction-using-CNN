@@ -1,19 +1,6 @@
-<div align="center">
-  
-[1]: https://github.com/Pradnya1208
-[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
-[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
-[4]: https://twitter.com/Pradnya1208
 
 
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
-
-</div>
-
-# <div align="center">Parkinson's disease prediction using CNN</div>
+# <div align="center">Parkinson's disease prediction </div>
 <div align="center"><img src="https://github.com/Pradnya1208/Detecting-Parkinsons-Disease/blob/main/output/intro.gif?raw=true" width="70%"></div>
 
 
@@ -55,7 +42,31 @@ The dataset itself consists of images and is pre-split into a training set and a
 
 ## Implementation:
 
-**Libraries:**  `NumPy`  `pandas` `sklearn`  `Matplotlib` `tensorflow` `keras`
+## Implementation
+### Libraries Used
+- **Data Processing**: NumPy, Pandas, Scikit-learn
+- **Visualization**: Matplotlib
+- **Deep Learning**: TensorFlow, Keras
+
+### Machine Learning Models
+- **Gait Analysis**: Applied models include Logistic Regression, Decision Trees, Random Forest, SVM (Linear, RBF, Poly Kernels), k-NN, and XGBoost.
+- **Spiral Drawing Analysis**: A CNN classifier was developed with Conv2D, MaxPooling2D, Flatten, and Dense layers. The Adam optimizer was used with binary cross-entropy loss, and callbacks were implemented for training.
+
+### Best Performing Model
+- **Random Forest Classifier**:
+  - Accuracy: 0.996
+  - F1 Score: 0.961
+  - R2 Score: 0.862
+
+## Learnings
+- Efficient data preprocessing and compression for large datasets.
+- Comparison of various ML models for classification tasks.
+- Implementation and optimization of CNN for image-based diagnosis.
+
+## Dataset Details
+- **Parkinson’s Disease Dataset**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/parkinsons.data)
+- **Parkinson’s Drawings**: Training and testing sets for spirals and wave drawings.
+
 
 ## Data Exploration:
 #### Spirals and waves drawn by healthy people:
@@ -114,25 +125,3 @@ history = classifier.fit(
 ## References:
 [XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/) <br>
 [Callbacks](https://keras.io/api/callbacks/)
-### Feedback
-
-If you have any feedback, please reach out at pradnyapatil671@gmail.com
-
-
-### 🚀 About Me
-#### Hi, I'm Pradnya! 👋
-I am an AI Enthusiast and  Data science & ML practitioner
-
-
-
-[1]: https://github.com/Pradnya1208
-[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
-[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
-[4]: https://twitter.com/Pradnya1208
-
-
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
-
