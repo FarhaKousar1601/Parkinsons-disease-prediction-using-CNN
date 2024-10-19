@@ -1,0 +1,6 @@
+[submodule "repo1"]
+	path = repo1
+	url = https://github.com/Pradnya1208/Parkinsons-disease-prediction-using-CNN
+[submodule "repo3"]
+	path = repo3
+	url = https://github.com/guptaharshnavin/Parkinson-Disease-Detection
